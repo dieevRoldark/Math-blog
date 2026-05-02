@@ -31,12 +31,20 @@ p{
 
 .header{
     background-color: #48e;
+    position: sticky;
+    top: 0;
+    padding: 12px;
+
+    a {
+    text-decoration: none;
+}
 }
 
 
 
 .main-navbar ul {
     display: flex;
+    flex-direction: row;
     padding: 0;
     justify-content: center;
 }
@@ -50,11 +58,11 @@ p{
     color: #fff;
     display: inline-block;
     padding: 6px 9px;
+    font-weight: bolder;
+
+    
 }
 
-nav a {
-    text-decoration: none;
-}
 
 /* Seccion main*/
 
