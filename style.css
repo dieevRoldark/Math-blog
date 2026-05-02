@@ -11,9 +11,11 @@ body{
 
 div, body, header, nav, ul, footer{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.main-wrapper, header, footer{
+header, footer{
     width: 100%;
 }
 
@@ -31,9 +33,7 @@ p{
     background-color: #48e;
 }
 
-.main-wrapper{
-    max-width: 1024px;
-}
+
 
 .main-navbar ul {
     display: flex;
@@ -60,7 +60,7 @@ nav a {
 
 .main-wrapper{
     display: flex;
-    flex-grow: 1;
+    height: 100vh;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
@@ -121,13 +121,16 @@ footer{
     font-weight: bold;
     text-align: center;
 }
+/**
+posible feature.
 
 @media screen and (max-width: 800px){
     aside:last-child{
         display:none;
     }
     
-}
+}**/
+
 
 @media screen and (max-width: 400px){
     .main-wrapper{
