@@ -142,7 +142,7 @@ posible feature.
 
 @media screen and (max-width: 400px){
     .main-wrapper{
-        flex-direction: column;
+        flex-direction: row;
     }
     
 }
