@@ -4,7 +4,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
     background-color: #ededed;
 
 }
@@ -15,9 +14,6 @@ div, body, header, nav, ul, footer{
     padding: 0;
 }
 
-header, footer{
-    width: 100%;
-}
 
 h1,h2,h3,h4 {
     text-wrap: balance;
@@ -34,6 +30,7 @@ p{
     position: sticky;
     top: 0;
     padding: 12px;
+    width: 100%;
 
     a {
     text-decoration: none;
@@ -45,7 +42,7 @@ p{
 .main-navbar ul {
     display: flex;
     flex-direction: row;
-    padding: 0;
+    padding: 0px;
     justify-content: center;
 }
 
@@ -68,10 +65,15 @@ p{
 
 .main-wrapper{
     display: flex;
+    flex-direction: row;
     height: 100vh;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+}
+
+.secondary-navbar {
+    width: 10x;
 }
 
 aside, main{
@@ -141,8 +143,22 @@ posible feature.
 
 
 @media screen and (max-width: 400px){
-    .main-wrapper{
-        flex-direction: row;
+
+    .header {
+        padding: 3px;
+        margin: 0px;
+
     }
     
+    .lik__navbar {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navbar__sec {
+        display: flex;
+        flex-direction: row;
+
+
+    }
 }
